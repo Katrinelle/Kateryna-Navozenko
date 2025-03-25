@@ -12,7 +12,7 @@ body {
   text-align: center;
 }
 
-header {
+.header {
   /* background: #004d40; */
   padding: 20px 0;
   color: #7d6363;
@@ -22,17 +22,17 @@ header {
   position: relative;
 }
 
-header ul {
+.header ul {
   list-style: none;
   padding: 0;
 }
 
-header ul li {
+.header ul li {
   display: inline;
   margin: 0 15px;
 }
 
-header a {
+.header a {
   color: #3d2f2f;
   text-decoration: none;
 }
@@ -45,7 +45,8 @@ header a {
 .about,
 .skills,
 .experience,
-.contact {
+.contact,
+.education {
   padding: 50px 0;
   background: white;
   /* margin: 20px 0; */
